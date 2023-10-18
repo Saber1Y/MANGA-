@@ -5,7 +5,7 @@ import './index.css';
 const App = () => {
   return (
     <>
-    <h1 className=''>hello world. tailwind css</h1>
+   
     <NavBar />
     <Heading />
     <Features />
