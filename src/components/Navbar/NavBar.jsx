@@ -3,7 +3,6 @@ import React from 'react'
 import Logo from '../../assets/logo.svg'
 
 
-
 const NavBar = () => {
   return (
   <nav className='relative container mx-auto p-4'>

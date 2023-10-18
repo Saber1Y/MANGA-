@@ -5,7 +5,6 @@ import './index.css';
 const App = () => {
   return (
     <>
-   
     <NavBar />
     <Heading />
     <Features />
