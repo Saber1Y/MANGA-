@@ -1,7 +1,4 @@
-// import { images } from './images'
+import { images } from './images'
+import { data } from './data';
 
-// export { images };
-
-// import data from './data'
-
-// export default { data };
+export default { images,data };

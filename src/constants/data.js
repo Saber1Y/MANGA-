@@ -1,3 +1,5 @@
+import images from './images'
+
 const featuresData = [
     {
         number: '01',
@@ -19,4 +21,26 @@ const featuresData = [
     },
 ];
 
-export default featuresData;
+
+const peoplesNames = [
+    {
+        img: images.ali.png,
+        name: 'ali',
+        review:
+            '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”'
+    },
+    {
+        img: images.anisha.png,
+        name: 'anisha',
+        review:
+            '“We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel confusion and everyone is much more focused.”'
+    },
+    {
+        img: images.richard.png,
+        name: 'Richard',
+        review:
+            '“Manage has supercharged our team’s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”'
+    },
+]
+
+export default { featuresData, peoplesNames };

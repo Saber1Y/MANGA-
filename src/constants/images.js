@@ -1,7 +1,9 @@
-// import Illustration from '../assets/illustration-intro.svg';
-// import logo from '../assets/logo.svg';
+import { ali } from '../assets/ali.png'
+import { anisha } from '../assets/anisha.png'
+import { richard } from '../assets/richard.png'
 
-// export default {
-//     Illustration,
-//     logo,
-// };
+export default {
+    ali,
+    anisha,
+    richard
+}
