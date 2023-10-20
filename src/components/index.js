@@ -1,7 +1,7 @@
 import NavBar from './Navbar/NavBar';
 import Heading from './Heading/Heading';
 import Features from './features/Features';
-import Footer from './footer/Footer';
+import Footer from './Cta/Cta';
 import Difference from './Difference/Difference';
 
 
