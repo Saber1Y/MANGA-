@@ -8,8 +8,8 @@ const App = () => {
     <NavBar />
     <Heading />
     <Features />
-    <Footer />
     <Difference/>
+    <Footer />
     </>
   )
 }

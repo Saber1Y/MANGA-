@@ -2,6 +2,8 @@ import React from 'react'
 import Subheading  from '../../container/subheading/Subheading'
 import Feature from '../../container/Feature/Feature';
 import featuresData from '../../constants/data'
+import data from '../../constants/data';
+
 
 const Features = () => {
   return (
@@ -16,13 +18,13 @@ const Features = () => {
      teams."
      />
       <div className="flex flex-col space-y-8 md:w-1/2">
-        {featuresData.map((feature, index) => (
-          <Feature 
+        {data.featuresData.map((feature, index) => (
+     <Feature 
           key={index}
           number={feature.number}
           title={feature.title}
           description={feature.description}
-          />
+      />
         ))}
       </div>
     </div>
