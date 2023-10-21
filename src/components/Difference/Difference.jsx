@@ -9,7 +9,7 @@ const Difference = () => {
       <h2 className="text-4xl font-bold text-center">
         What's Different about Manga?
       </h2>
-      <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
+        <div className="flex flex-col mt-24 md:flex-row md:space-x-6">
         <div
             className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
           >
@@ -23,7 +23,7 @@ const Difference = () => {
             ))}
             </div>
             <div class="my-16">
-          <a
+            <a
             href="#"
             className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
             >Get Started

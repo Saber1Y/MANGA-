@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-import { NavBar, Heading,  Features,  Footer,  Difference } from './components';
+import { NavBar, Heading,  Features, Difference, Cta, Footer } from './components';
 import './index.css';
 
 const App = () => {
@@ -9,6 +9,7 @@ const App = () => {
     <Heading />
     <Features />
     <Difference/>
+    <Cta />
     <Footer />
     </>
   )
